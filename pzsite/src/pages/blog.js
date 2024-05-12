@@ -1,62 +1,22 @@
 
 function Blog() {
-    return (
-        <div className="App">
-            <AppHeader />
-
-        </div>
-    );
+  return (
+    <div className="App">
+      <AppHeader />
+    </div>
+  );
 }
 
 
 
 function AppHeader() {
-    return (
-        <div className="flex-container" >
+  return (
+    <div className="body-text" >
+      <h3>Blog</h3>
+      Coming Soon
+    </div>
 
-            <div>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    home
-                </a>
-            </div>
-            <div>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
-            </div>
-            {/* <div>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </div>
-        <div>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </div> */}
-        </div>
-
-    )
+  )
 }
 
 export default Blog;
