@@ -24,7 +24,7 @@ function AppHeader() {
       <h4> Snake2 </h4>
 
       Very small dataset of 2 snakes:
-      <a href="/snake2.tar.gz" ></a>
+      <a href="https://github.com/PurpleZenith/PurpleZenith.github.io/blob/main/pzsite/src/pages/snake2.tar.gz" ></a>
 
 
     </div>
